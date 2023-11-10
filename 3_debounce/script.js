@@ -22,9 +22,10 @@ function sampleArray(arr) {
     console.log('Array output:', arr)
 }
 
-const newArray = debounce(sampleArray, 1000); // output will take 1 second to load
+const newArray = debounce(sampleArray, 2000); // output will take 1 second to load
 
 
 
 
 newArray(calls)
+
