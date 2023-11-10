@@ -23,9 +23,9 @@ bookshelf.addBook('The Great')
 bookshelf.addBook('The Great Think')
 bookshelf.addBook('The Hunger Games')
 bookshelf.removeBook('The Great Think')
-bookshelf.totalBook()
-
-console.log(bookshelf)
 
 console.log(bookshelf.totalBook())
+console.log(bookshelf)
+
+
 
