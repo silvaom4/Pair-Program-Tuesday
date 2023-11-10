@@ -1,9 +1,15 @@
-function debounce(func,t){
+
+
+
+
+
+function debounce(function,t){
     let timer;
-    returm func(args){
+
+    return function(args){
         clearTimeout(timer);
         timer=setTimeout(() =>{
-            func(args);
+            function (args);
         },t);
 
         };
