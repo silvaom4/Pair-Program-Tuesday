@@ -1,3 +1,17 @@
+
+
+
+
+
+function debounce(function,t){
+    let timer;
+
+    return function(args){
+        clearTimeout(timer);
+        timer=setTimeout(() =>{
+            function (args);
+        },t);}
+
 function debounce(func, t){
     let timer;
 
@@ -6,8 +20,7 @@ function debounce(func, t){
         timer = setTimeout(() => {
             func(args);
         } , t);
-
-        };
+        };}
     }
 
 
