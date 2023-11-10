@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -11,8 +10,8 @@ function debounce(function,t){
         clearTimeout(timer);
         timer=setTimeout(() =>{
             function (args);
-        },t);
-=======
+        },t);}
+
 function debounce(func, t){
     let timer;
 
@@ -21,9 +20,7 @@ function debounce(func, t){
         timer = setTimeout(() => {
             func(args);
         } , t);
->>>>>>> refs/remotes/origin/main
-
-        };
+        };}
     }
 
 
